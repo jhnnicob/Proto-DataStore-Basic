@@ -1,7 +1,7 @@
 package com.nico.protodatastorebasic.datastore
 
 import android.content.Context
-import com.nico.protodatastorebasic.datastore.SettingsSerializer.settingsDataStore
+import com.nico.protodatastorebasic.datastore.serializer.SettingsSerializer.settingsDataStore
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.map
 
