@@ -1,4 +1,4 @@
-package com.nico.protodatastorebasic.ui.theme
+package com.nico.protodatastorebasic.presentation.ui.theme
 
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.Shapes

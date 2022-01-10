@@ -1,4 +1,4 @@
-package com.nico.protodatastorebasic.ui.theme
+package com.nico.protodatastorebasic.presentation.ui.theme
 
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.material.MaterialTheme
