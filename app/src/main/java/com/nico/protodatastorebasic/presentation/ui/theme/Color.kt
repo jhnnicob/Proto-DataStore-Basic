@@ -1,4 +1,4 @@
-package com.nico.protodatastorebasic.ui.theme
+package com.nico.protodatastorebasic.presentation.ui.theme
 
 import androidx.compose.ui.graphics.Color
 
