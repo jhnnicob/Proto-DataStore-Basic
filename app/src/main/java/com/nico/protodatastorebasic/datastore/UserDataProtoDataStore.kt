@@ -42,7 +42,7 @@ class UserDataProtoDataStore(
         }
     }
 
-    suspend fun saveUserDataList(user: User) {
+    suspend fun save(user: User) {
         context.userDataListDataStore.updateData { userData ->
             userData.toBuilder()
                 .addUserData(user.toUserData())
@@ -56,5 +56,11 @@ class UserDataProtoDataStore(
             .setUserType(this.userType)
             .setToken(this.token)
             .build()
+    }
+
+    suspend fun delete() {
+        context.userDataListDataStore.updateData { userDataList ->
+            userDataList.toBuilder().clear().build()
+        }
     }
 }
