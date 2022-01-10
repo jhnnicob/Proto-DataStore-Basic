@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option java_package = "com.nico.protodatastorebasic";
+option java_multiple_files = true;
+
+message UserData {
+  string username = 1;
+  string userType = 2;
+  string token = 3;
+}
+
+message UserDataList {
+  repeated UserData userData = 1;
+}
