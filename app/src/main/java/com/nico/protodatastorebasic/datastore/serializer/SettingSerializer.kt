@@ -1,4 +1,4 @@
-package com.nico.protodatastorebasic.datastore
+package com.nico.protodatastorebasic.datastore.serializer
 
 import android.content.Context
 import androidx.datastore.core.CorruptionException
